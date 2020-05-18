@@ -1,0 +1,7 @@
+{
+    "name": "Test Hosting on Heroku",
+    "description": "Learning how to host nodejs api built with express on heroku",
+    "repository": "https://github.com/stanleyHayes/test-hosting-toy-api.git",
+    "keywords": ["Heroku", "Express", "Nodejs"],
+    "image": "heroku/nodejs"
+}

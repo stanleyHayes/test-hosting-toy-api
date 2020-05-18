@@ -1,16 +1,27 @@
 {
     "name": "heroku-hosting-nodejs-api-test",
     "version": "1.0.0",
-    "description": "",
+    "description": "Learning how to host nodejs api built with express on heroku",
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
         "dev": "nodemon"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": [
+        "Heroku",
+        "Express",
+        "Nodejs"
+    ],
+    "author": "Stanley Hayford",
     "license": "ISC",
     "dependencies": {
         "express": "^4.17.1"
+    },
+    "engines": {
+        "node": "14.2.0"
+    },
+    "repository": {
+        "url": "https://github.com/stanleyHayes/test-hosting-toy-api.git",
+        "type": "git"
     }
 }
