@@ -32,9 +32,11 @@ app.get('/contact', (req, res) => {
 
 app.get('/contact/:id', (req, res) => {
     const id = req.params.id;
+    console.log(foundFriends)
     const foundFriends = friends.filter((friend) => {
         return friend.id === id
     });
+    console.log(foundFriends)
     if (foundFriends.length === 0) {
         return res.status(404).json({
             success: false,
