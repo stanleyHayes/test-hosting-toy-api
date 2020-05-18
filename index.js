@@ -32,7 +32,6 @@ app.get('/contact', (req, res) => {
 
 app.get('/contact/:id', (req, res) => {
     const id = req.params.id;
-    console.log(foundFriends)
     const foundFriends = friends.filter((friend) => {
         return friend.id === id
     });
